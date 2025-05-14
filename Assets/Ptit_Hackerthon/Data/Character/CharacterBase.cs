@@ -6,7 +6,7 @@ public class CharacterBase : MonoBehaviour
     public float moveSpeed = 5f;
     private Rigidbody rb;
 
-    private void Awake()
+    public void Init()
     {
         rb = GetComponent<Rigidbody>();
     }
